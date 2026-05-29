@@ -1,0 +1,8 @@
+{
+  "name": "adobe-ppt-generation",
+  "description": "Generate fully Adobe-branded PowerPoint presentations (.pptx) following Adobe Creative Cloud Brand Guidelines (January 2025). Covers slide layout, color palette, typography, logo placement, and brand compliance checks.",
+  "author": {
+    "name": "Adobe",
+    "email": "zkorczyc@adobe.com"
+  }
+}
