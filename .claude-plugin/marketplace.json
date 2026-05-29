@@ -1,8 +1,20 @@
 {
   "name": "adobe-ppt-generation",
-  "description": "Generate fully Adobe-branded PowerPoint presentations (.pptx) following Adobe Creative Cloud Brand Guidelines (January 2025). Covers slide layout, color palette, typography, logo placement, and brand compliance checks.",
-  "author": {
+  "owner": {
     "name": "Adobe",
     "email": "zkorczyc@adobe.com"
-  }
+  },
+  "metadata": {
+    "description": "Claude Code marketplace for generating Adobe-branded PowerPoint presentations following Adobe Creative Cloud Brand Guidelines (January 2025).",
+    "version": "1.0.0",
+    "repository": "https://github.com/zkorczyc/Adobe-PPT-Generation"
+  },
+  "plugins": [
+    {
+      "name": "adobe-ppt-generation",
+      "description": "End-to-end wizard for creating fully brand-compliant Adobe .pptx presentations using python-pptx. Enforces Adobe Red/Black/White palette, Adobe Clean typography, logo placement, and runs a 20-point brand compliance check.",
+      "source": "./plugins/adobe-ppt-generation",
+      "strict": false
+    }
+  ]
 }
