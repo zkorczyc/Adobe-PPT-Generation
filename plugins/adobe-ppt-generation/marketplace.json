@@ -1,0 +1,14 @@
+{
+  "name": "adobe-ppt-generation",
+  "owner": {
+    "name": "Zofia Korczyc",
+    "email": "zkorczyc@adobe.com"
+  },
+  "plugins": [
+    {
+      "name": "adobe-ppt-generator",
+      "source": "./skills/adobe-ppt-generator",
+      "description": "Generate fully Adobe-branded PowerPoint presentations (.pptx) following Adobe Creative Cloud Brand Guidelines (January 2025)"
+    }
+  ]
+}
